@@ -1,6 +1,6 @@
 # 前言
 
-=
+
 自学vue中看了部分项目，一般的demo比较简单，发现了饿了么项目做得人比较多，刚好在git发现https://github.com/bailicangdu/vue2-elm此项目是不错的，就开始入手学习制作。\<br>
 \<br>
 由于是业务时间制作，还有部分页面没有完善，后期有时间再接着补。\<br>
@@ -8,9 +8,10 @@
 
 # 技术
 
-=
+
 > A Vue.js project
-vue2 + vuex + vue-router + webpack + ES6 + sass + flex\<br>
+
+>vue2 + vuex + vue-router + webpack + ES6 + sass + flex\<br>
 \<br>
 
 # 项目运行

@@ -1,0 +1,48 @@
+$blue: #007fcc; 
+$white:#fff;
+
+@mixin borderRadius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    -o-border-radius: $radius;
+    border-radius: $radius;
+}
+@mixin wh($width, $height) {
+    width:$width;
+    height:$height
+}
+//字体大小，颜色
+@mixin sc($size, $color){
+    font-size: $size;
+    color: $color;
+}
+//字体大小、行高、字体
+@mixin font($size, $line-height, $family: 'Microsoft YaHei') {  
+    font: #{$size}/#{$line-height} $family;
+}
+//旋转
+@mixin rotate($deg){
+    -webkit-transform: rotate($deg);
+    transform: rotate($deg);
+}
+//下边框
+@mixin borderBottom($w,$color){
+    border-bottom: $w solid $color;
+}
+//上边框
+@mixin borderTop($w,$color){
+    border-top: $w solid $color;
+}
+//右边框
+@mixin borderRight($w,$color){
+    border-right: $w solid $color;
+}
+//右边框
+@mixin flex(){
+    display: -webkit-box;
+    display: -ms-box;
+    display: -webkit-flex;
+    display: flex;
+    display: box;
+}
